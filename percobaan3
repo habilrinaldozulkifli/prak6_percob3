@@ -7,9 +7,9 @@ void setup(){
   ICR1H=0x00;
   ICR1L=0x00;
   OCR1AH=0x00;
-  OCR1AL=0x01;
+  OCR1AL=0x00;
   OCR1BH=0x00;
-  OCR1BL=0x01;
+  OCR1BL=0x00;
 }
 
 void loop(){
